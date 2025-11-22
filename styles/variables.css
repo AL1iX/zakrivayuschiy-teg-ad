@@ -12,9 +12,6 @@
   --font-weight-regular: 400;
   --font-weight-bold: 700;
 
-  /* Layout */
-  --container-max-width: 700px;
-
   /* Background */
   --background-gradient: repeating-linear-gradient(
       to right,
