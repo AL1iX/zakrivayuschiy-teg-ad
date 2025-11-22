@@ -90,8 +90,6 @@
   object-fit: cover;
 }
 
-/* фильтры */
-
 .card:nth-of-type(1) .card__image {
   filter: none;
 }
@@ -123,8 +121,6 @@
 .card:nth-of-type(8) .card__image {
   filter: blur(0.2rem) hue-rotate(90deg) sepia(20%);
 }
-
-/* фильтры закончились */
 
 .card__image-caption {
   position: absolute;
@@ -224,7 +220,7 @@
 .button > * {
   position: relative;
   color: var(--color-button-text);
-  mix-blend-mode: difference; /* заливка текста */
+  mix-blend-mode: difference;
 }
 
 /* Footer */
