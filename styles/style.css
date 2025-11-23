@@ -36,8 +36,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: clamp(327px, 327px + 41 * (100vw - 320px) / 1120, 368px);
-  padding-top: clamp(7.5rem, 6.346rem + 4.923vw, 8.5rem);
+  height: clamp(327px, 315px + 3.66vw, 368px);
+  padding-top: clamp(120px, 102px + 5vw, 136px);
   padding-bottom: 25px;
   border: 2px solid currentColor;
   background-color: var(--color-background);
@@ -45,14 +45,14 @@
 }
 
 .header__logo {
-  font-size: clamp(3.063rem, 1.909rem + 4.923vw, 4.063rem);
+  font-size: clamp(49px, 30.5px + 5vw, 65px);
   text-transform: uppercase;
 }
 
 .header__title {
   margin-top: 20px;
   margin-bottom: 25px;
-  font-size: clamp(0.875rem, 0.226rem + 2.769vw, 1.438rem);
+  font-size: clamp(14px, 3.5px + 2.7vw, 23px);
   text-transform: uppercase;
 }
 
@@ -107,7 +107,7 @@
 }
 
 .card:nth-of-type(5) .card__image {
-  filter: hue-rotate(45deg) invert(0.8);
+  filter: hue-rotate(45deg) invert(80%);
 }
 
 .card:nth-of-type(6) .card__image {
@@ -124,8 +124,8 @@
 
 .card__image-caption {
   position: absolute;
-  top: clamp(1.5625rem, 1.4183rem + 0.6154vw, 1.6875rem);
-  right: clamp(0.6875rem, -0.3221rem + 4.3077vw, 1.5625rem);
+  top: clamp(25px, 22.6px + 0.5vw, 27px);
+  right: clamp(11px, -5px + 4vw, 25px);
   font-family: var(--font-family-heading);
   font-size: 14px;
   opacity: 0.5;
@@ -239,15 +239,15 @@
 }
 
 .footer__icon {
-  width: clamp(1.3125rem, 2.2548rem + -2.1538vw, 1.75rem);
+  width: clamp(21px, 36px - 2vw, 28px);
 }
 
 /* Dialog */
 .dialog {
   padding-top: 30px;
   padding-bottom: 30px;
-  padding-left: clamp(1.875rem, 3.221rem + -3.077vw, 2.5rem);
-  padding-right: clamp(1.875rem, 3.221rem + -3.077vw, 2.5rem);
+  padding-left: clamp(30px, 51.5px - 3vw, 40px);
+  padding-right: clamp(30px, 51.5px - 3vw, 40px);
   border: 2px solid currentColor;
   background-color: var(--color-background, #fff);
   color: var(--color-text);
@@ -260,7 +260,7 @@ dialog::backdrop {
 .dialog[open] {
   display: flex;
   flex-direction: column;
-  max-width: clamp(21.313rem, 20.159rem + 4.923vw, 22.313rem);
+  max-width: clamp(341px, 322.5px + 5vw, 357px);
   gap: 30px;
 }
 
