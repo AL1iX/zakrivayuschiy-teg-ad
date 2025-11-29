@@ -531,7 +531,7 @@
       <button
         class="footer__button button"
         type="button"
-        onclick="window['dialog-id'].showModal()"
+        onclick="event.preventDefault(); window['dialog-id'].showModal();"
         aria-controls="dialog-id"
         aria-label="Сохранить на память"
       >
@@ -553,9 +553,9 @@
           class="dialog__button button"
           type="button"
           aria-label="Закрыть диалог"
-          onclick="window['dialog-id'].close()"
+          onclick="event.preventDefault(); window['dialog-id'].close();"
         >
-          <span>Ok</span>
+          <span class="button__text">Ok</span>
         </button>
       </div>
     </dialog>

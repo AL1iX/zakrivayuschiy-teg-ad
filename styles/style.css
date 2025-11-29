@@ -19,6 +19,7 @@
   padding-bottom: 100px;
   font-family: var(--font-family-body);
   font-weight: var(--font-weight-regular);
+  font-variation-settings: "wght" var(--font-weight-regular);
   color: var(--color-text);
   background-color: var(--color-background);
   background-image: var(--background-gradient);
@@ -75,6 +76,7 @@
   padding: 5px 10px;
   font-size: 18px;
   font-weight: var(--font-weight-bold);
+  font-variation-settings: "wght" var(--font-weight-bold);
 }
 
 .card__figure {
@@ -107,7 +109,7 @@
 }
 
 .card:nth-of-type(5) .card__image {
-  filter: hue-rotate(45deg) invert(80%);
+  filter: hue-rotate(45deg) invert(0.8);
 }
 
 .card:nth-of-type(6) .card__image {
@@ -217,7 +219,7 @@
   scale: 1;
 }
 
-.button > * {
+.button__text {
   position: relative;
   color: var(--color-button-text);
   mix-blend-mode: difference;
